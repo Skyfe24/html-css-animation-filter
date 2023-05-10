@@ -204,7 +204,7 @@
 }
 
 .ex-13-button:hover .ex-13-top-white {
-  animation: movingtop 2s infinite;
+  animation: movingtop 4s linear infinite;
 }
 @keyframes movingtop {
   0% {
@@ -212,7 +212,7 @@
     left: 10%;
     top: -10px;
   }
-  5% {
+  25% {
     left: -5%;
     top: -10px;
   }
@@ -220,11 +220,11 @@
     left: -5%;
     top: 60px;
   }
-  70% {
+  75% {
     left: 180px;
     top: 60px;
   }
-  80% {
+  90% {
     left: 180px;
     top: -10px;
   }
@@ -235,7 +235,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
-  animation: movingbottom 4s infinite;
+  animation: movingbottom 4s linear infinite;
 }
 @keyframes movingbottom {
   0% {
